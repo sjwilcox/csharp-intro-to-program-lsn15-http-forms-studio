@@ -1,0 +1,32 @@
+﻿
+form{
+    border-style:double;
+    margin: 15px 800px 15px 10px; 
+    padding-left: 5px;
+    padding-bottom: 15px;
+    background-color:lemonchiffon;
+}
+h3 {
+    text-align: center;
+    animation: blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: #000;
+    }
+    49% {
+        color: #000;
+    }
+    60% {
+        color: transparent;
+    }
+    99% {
+        color: transparent;
+    }
+    100% {
+        color: #000;
+    }
+}
+}
+
